@@ -19,4 +19,16 @@ public class Profesion
      nombreProfesion = Profesion;
      rango = Rango;
     }
+    public String getNombreprofesion() {
+        return nombreProfesion;
+    }
+    public String getRango() {
+        return rango;
+    }
+    public void setNombreprofesion(String profesion) {
+        nombreProfesion = profesion;
+    }
+    public void setRango(String Rango) {
+        rango = Rango;
+    }
 }
