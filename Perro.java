@@ -10,4 +10,9 @@ public class Perro
     private String nombrePerro;
     private String raza;
     private Profesion profesion;
+
+    public Perro(String nombre, String Raza){
+        nombrePerro = nombre;
+        raza = Raza;
+    }
 }
