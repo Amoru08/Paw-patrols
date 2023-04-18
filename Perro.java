@@ -24,4 +24,14 @@ public class Perro
     public Profesion getProfesion() {
         return profesion;
     }
+    
+    public void setNombrePerro(String nombre){
+        nombrePerro = nombre;
+    }
+    public void setRaza (String Raza){
+        raza = Raza;
+    }
+    public void setProfesion (Profesion laProfesion){
+        profesion = laProfesion;
+    }
 }
