@@ -15,4 +15,13 @@ public class Perro
         nombrePerro = nombre;
         raza = Raza;
     }
+    public String getNombrePerro() {
+        return nombrePerro;
+    }
+    public String getRaza() {
+        return raza;
+    }
+    public Profesion getProfesion() {
+        return profesion;
+    }
 }
