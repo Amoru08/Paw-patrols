@@ -14,10 +14,10 @@ public class Profesion
     /**
      * Constructor for objects of class Profesion
      */
-    public Profesion(String Profesion, String Rango)
+    public Profesion(String profesion, String rango)
     {
-     nombreProfesion = Profesion;
-     rango = Rango;
+     nombreProfesion = profesion;
+     this.rango = rango;
     }
     public String getNombreprofesion() {
         return nombreProfesion;
@@ -28,8 +28,8 @@ public class Profesion
     public void setNombreprofesion(String profesion) {
         nombreProfesion = profesion;
     }
-    public void setRango(String Rango) {
-        rango = Rango;
+    public void setRango(String rango) {
+        this.rango = rango;
     }
     
     public void imprimirDetalles(){   

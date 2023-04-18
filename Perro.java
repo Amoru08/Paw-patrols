@@ -11,9 +11,10 @@ public class Perro
     private String raza;
     private Profesion profesion;
 
-    public Perro(String nombre, String Raza){
+    public Perro(String nombre, String raza, Profesion profesiones){
         nombrePerro = nombre;
-        raza = Raza;
+        this.raza = raza;
+        profesion = profesiones;
     }
     public String getNombrePerro() {
         return nombrePerro;
@@ -28,8 +29,8 @@ public class Perro
     public void setNombrePerro(String nombre){
         nombrePerro = nombre;
     }
-    public void setRaza (String Raza){
-        raza = Raza;
+    public void setRaza (String raza){
+        this.raza = raza;
     }
     public void setProfesion (Profesion laProfesion){
         profesion = laProfesion;
