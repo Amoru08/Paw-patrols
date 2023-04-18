@@ -32,7 +32,7 @@ public class Profesion
         rango = Rango;
     }
     
-    public void imprimirDetalles(){
-        System.out.println("Nombre de la profesion ejercida: " + nombreProfesion + " Rango dentro de la profesion: " + rango);
-    }
+    public void imprimirDetalles(){   
+        System.out.println( "Nombre de la profesion ejercida: " + nombreProfesion + " Rango dentro de la profesion: " + rango);
+    }     
 }
