@@ -34,4 +34,9 @@ public class Perro
     public void setProfesion (Profesion laProfesion){
         profesion = laProfesion;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("El nombre del perro es: " + nombrePerro + " La raza del perro es: " + raza + 
+        " La profesion del perro es: " + profesion.getNombreprofesion() + " El rango de su profesion es: " + profesion.getRango());
+    }
 }
